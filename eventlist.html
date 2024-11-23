@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<!--This document will go through CRUD Operations.
+THe form will be a Events Listing for theme parks in Florida.
+The variables included will be the Event name, the park name
+the start date, end date, and finally the start time and end times. -->
+
+
+<head>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="eventlist.html">List Of Events</a></li>
+        <li><a href="aboutus.html">About The Author</a></li>
+        <li><a href="analytics.html">Analytics</a></li>
+    <ul>
+        <title>
+            Events List
+        </title>
+</head>
+<Body>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <center>
+    <h1>
+        Events Table
+    </h1>
+    <h3>
+        The information provided below will showcase the event at the park, as well as their hours.
+    </h3>
+    <table border="1px solid black">
+        <tr>
+            <th>Event Name</th>
+            <th>Park Name</th>
+            <th>Start Time</th>
+            <th>End Time</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+        </tr>
+        <tr>
+            <td>Halloween Horror Nights</td>
+            <td>Universal Studios Orlando</td>
+            <td>06:30 PM</td>
+            <td>02:00 AM</td>
+            <td>08/30/2024</td>
+            <td>11/03/2024</td>
+        </tr>
+        <tr>
+            <td>Mickey's Not So Scary Halloween Party</td>
+            <td>Disney World</td>
+            <td>07:00 PM</td>
+            <td>11:00 PM</td>
+            <td>08/23/2024</td>
+            <td>10/31/2024</td>
+        </tr>
+    </table>
+    
+    
+    
+    <form>
+        <label for="ename">Event Name:</label>
+        <input type="text" id="ename" name="ename">
+        <label for="pname">Park Name:</label>
+        <input type="text" id="pname" name="pname">
+        <label for="stime">Start Time:</label>
+        <input type="time" name="stime" id="stime">
+        <label for="etime">End Time:</label>
+        <input type="time" name="etime" id="etime">
+        <label for="sdate">Start Date:</label>
+        <input type="date" name="sdate" id="sdate">
+        <label for="edate">End Date:</label>
+        <input type="date" name="edate" id="edate">
+        <input type="submit" value="Submit">
+    </form>
+    </center>
+</Body>
+
+
+
+</html>
